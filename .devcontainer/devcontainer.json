@@ -1,0 +1,33 @@
+{
+  "name": "regolith-codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/conda:1": {}
+  },
+  // Cache conda pkgs across rebuilds for speed
+  "mounts": [
+    "type=cache,target=/opt/conda/pkgs,id=conda-pkgs-lunar-surface-regolith"
+  ],
+  "postCreateCommand": "bash .devcontainer/setup-conda.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        // Point VS Code at the project env interpreter
+        "python.defaultInterpreterPath": "/opt/conda/envs/regolith/bin/python"
+      }
+    }
+  },
+  // Ensure the env’s python is first on PATH in terminals & tasks
+  "remoteEnv": {
+    "PATH": "/opt/conda/envs/regolith/bin:${PATH}",
+    "CONDA_DEFAULT_ENV": "regolith"
+  }
+}
+
+

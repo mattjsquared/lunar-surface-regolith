@@ -1,0 +1,11 @@
+name: grl-regolith
+channels: [conda-forge]
+dependencies:
+ - python=3.11
+ - numpy=1.26.*
+ - matplotlib=3.8.*
+ - pandas=2.2.*
+ - geopandas=0.14.*
+ - cartopy=0.23.*
+ - shapely=2.0.*
+ - pyinterp=0.12.*
