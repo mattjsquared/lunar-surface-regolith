@@ -1,0 +1,13 @@
+image.cmap      : magma
+font.family     : Myriad Pro, Arial, sans-serif
+figure.dpi      : 300
+savefig.dpi     : 800
+font.size       : 9
+xtick.major.size: 2.5
+ytick.major.size: 2.5
+xtick.minor.size: 1.5
+ytick.minor.size: 1.5
+xtick.major.width: .8
+ytick.major.width: .8
+xtick.minor.width: .4
+ytick.minor.width: .4

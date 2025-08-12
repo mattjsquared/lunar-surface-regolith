@@ -2,10 +2,11 @@ name: grl-regolith
 channels: [conda-forge]
 dependencies:
  - python=3.10
- - numpy=1.26.*
- - matplotlib=3.8.*
- - pandas=2.2.*
- - geopandas=0.14.*
- - cartopy=0.23.*
- - shapely=2.0.*
- - pyinterp=0.12.*
+ - numpy=2.2.*
+ - matplotlib=3.10.*
+ - pandas=2.3.*
+ - geopandas=1.1.*
+ - cartopy=0.25.*
+ - shapely=2.1.*
+ - pyinterp=2025.8.*
+ - openpyxl=3.1.*
