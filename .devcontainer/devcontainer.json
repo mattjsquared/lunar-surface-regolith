@@ -1,9 +1,0 @@
-{
-  "name": "regolith",
-  "image": "mcr.microsoft.com/devcontainers/miniconda:0-3",
-  "remoteUser": "vscode",
-  "customizations": { "vscode": { "extensions": ["ms-python.python","ms-toolsai.jupyter"] } },
-  "onCreateCommand": "bash -lc 'source /opt/conda/etc/profile.d/conda.sh; conda init; (conda env create -n regolith -f environment.yml || conda env update -n regolith -f environment.yml)'",
-  "postCreateCommand": "bash -lc 'echo \"source /opt/conda/etc/profile.d/conda.sh\" >> ~/.bashrc && echo \"conda activate regolith\" >> ~/.bashrc'",
-  "postAttachCommand": "bash -lc 'source /opt/conda/etc/profile.d/conda.sh && conda activate regolith && conda info --envs'"
-}
