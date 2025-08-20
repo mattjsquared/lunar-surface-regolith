@@ -1,6 +1,6 @@
 # Lunar Surface Regolith Thickness Mapping
 
-[![DOI](https://zenodo.org/badge/1036316580.svg)](https://doi.org/10.5281/zenodo.16912357)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16912357.svg)](https://doi.org/10.5281/zenodo.16912357)
 
 **Version:** 1.0.1
 
