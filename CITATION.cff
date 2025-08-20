@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 title: Lunar Surface Regolith Thickness Mapping
-version: 0.1.0
+version: 1.0.1
 date-released: 2025-08-12
 authors:
   - family-names: Jones
     given-names: Matt J.
   - family-names: Rajšić
     given-names: Andrea
-doi: 
-url: https://github.com/mattjsquared/lunar-surface-regolith
+doi: 10.5281/zenodo.16912534
+url: https://doi.org/10.5281/zenodo.16912534
