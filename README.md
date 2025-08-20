@@ -1,6 +1,8 @@
 # Lunar Surface Regolith Thickness Mapping
 
-**Version:** 0.1.0
+[![DOI](https://zenodo.org/badge/1036316580.svg)](https://doi.org/10.5281/zenodo.16912357)
+
+**Version:** 1.0.0
 
 This package provides tools for estimating and mapping global lunar surface regolith thickness as in [Rajšić et al. (2025)](), using spatial interpolation from scattered measurements.
 
@@ -16,15 +18,16 @@ This package provides tools for estimating and mapping global lunar surface rego
 
 If you use this package, please cite:
 
-Matt J. Jones & Andrea Rajšić (2025). Lunar Surface Regolith Thickness Mapping (Version 0.1.0) [Software]. https://github.com/mattjsquared/lunar-surface-regolith
+Matt J. Jones & Andrea Rajšić (2025). Lunar Surface Regolith Thickness Mapping (Version 1.0.0) [Software]. https://github.com/mattjsquared/lunar-surface-regolith  
+DOI: [10.5281/zenodo.16912358](https://doi.org/10.5281/zenodo.16912358)
 
 BibTeX:
 @misc{jones2025regolith,
   author = {Jones, Matt J. and Rajšić, Andrea},
   title = {Lunar Surface Regolith Thickness Mapping},
   year = {2025},
-  version = {0.1.0},
-  doi = {},
+  version = {1.0.0},
+  doi = {10.5281/zenodo.16912358},
   url = {https://github.com/mattjsquared/lunar-surface-regolith}
 }
 
