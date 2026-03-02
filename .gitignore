@@ -1,11 +1,10 @@
-# Ignore all CSV files
+# Data files
 *.csv
-
-# Ignore all Excel files
 *.xls
 *.xlsx
-
-# Ignore all image files
+*.pkl
+*.shp
+# Image files
 *.png
 *.jpg
 *.jpeg
@@ -13,3 +12,8 @@
 *.bmp
 *.tiff
 *.svg
+# Other files
+*.code-workspace
+*.ipynb
+__pycache__/
+.vscode/

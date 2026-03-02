@@ -1,4 +1,4 @@
-# Copyright (C) 2025 Matthew Jones and Andrea Rajšić
+# Copyright (C) 2026 Matthew Jones and Andrea Rajšić
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -13,4 +13,4 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-__version__ = "1.0.1"
+__version__ = "2.0.0"
