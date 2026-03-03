@@ -19,7 +19,7 @@ This package provides tools for estimating and mapping global lunar surface rego
 If you use this package, please cite:
 
 Matt J. Jones & Andrea Rajšić (2026). Lunar Surface Regolith Thickness Mapping (Version 2.0.0) [Software]. https://github.com/mattjsquared/lunar-surface-regolith  
-DOI: [10.5281/zenodo.16912534](https://doi.org/10.5281/zenodo.16912534)
+DOI: [10.5281/zenodo.18829373](https://doi.org/10.5281/zenodo.18829373)
 
 BibTeX:
 @misc{jones2026regolith,
@@ -27,8 +27,8 @@ BibTeX:
   title = {Lunar Surface Regolith Thickness Mapping},
   year = {2026},
   version = {2.0.0},
-  doi = {10.5281/zenodo.16912534},
-  url = {https://doi.org/10.5281/zenodo.16912534}
+  doi = {10.5281/zenodo.18829373},
+  url = {https://doi.org/10.5281/zenodo.18829373}
 }
 
 ## Installation
@@ -61,7 +61,7 @@ Open `reproduce/reproduce.ipynb` and run the cells to generate the maps and stat
 
 - **LROC maria shapefile**: Vectorized mare outlines, included as `reproduce/data/LROC_GLOBAL_MARE_180/*`. This data comes from [Speyerer et al. (2011)](http://adsabs.harvard.edu/abs/2011LPI....42.2387S). Used for masking mare regions in the maps.
 - **LROC WAC gridded data**: Pickled data for the basemap of the lunar surface, included as `reproduce/data/map_wac.pkl`. Includes variables `wac_lon`, `wac_lat`, and `wac_vals` for longitude, latitude, and data values, respectively.
-- **Crater dataset**: Mapped and classified craters from [Rajšić et al. (2025)](). These data are used for estimating regolith thickness based on crater size and REC/nREC classification. The dataset is included in the repository as `reproduce/data/Rajsic-etal2026-PSJ_Table_SM1-SM2.xlsx`.
+- **Crater dataset**: Mapped and classified craters from [Rajšić et al. (2026)](). These data are used for estimating regolith thickness based on crater size and REC/nREC classification. The dataset is included in the repository as `reproduce/data/Rajsic-etal2026-PSJ_Table_SM1-SM2.xlsx`.
 - **Regolith measurements**: Previously published regolith thickness estimates at points across the lunar surface. Used to generate the IDW-interpolated map of [Rajšić et al. (2026)]() alongside estimates from our crater analysis. Included in the repository as `reproduce/data/RegolithData_Literature.xlsx`.
 - **USGS mare shapefile**: Provided as a pickled GeoDataFrame, `reproduce/data/USGSmare.pkl` (pickled indirectly using Geopandas v1.1.1). The geometry is the union of all mare units in the vectorized [USGS 1:5,000,000 Geological Map of the Moon](https://astrogeology.usgs.gov/search/map/unified_geologic_map_of_the_moon_1_5m_2020) ([Fortezzo et al., 2020](https://www.hou.usra.edu/meetings/lpsc2020/pdf/2760.pdf)). Provided as an alternative to the LROC maria shapefile used in [Rajšić et al. (2026)]().
 
