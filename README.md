@@ -59,7 +59,7 @@ Open `reproduce/reproduce.ipynb` and run the cells to generate the maps and stat
 
 ### Data
 
-- **LROC maria shapefile**: Vectorized mare outlines, included as `reproduce/data/LROC_GLOBAL_MARE_180/*`. This data comes from [Speyerer et al. (2011)](http://adsabs.harvard.edu/abs/2011LPI....42.2387S). Used for masking mare regions in the maps.
+- **LROC maria shapefile**: Vectorized mare outlines, included as `reproduce/data/LROC_GLOBAL_MARE_180/*`. This data comes from [Nelson et al. (2014)](https://www.hou.usra.edu/meetings/lpsc2014/pdf/2861.pdf). Used for masking mare regions in the maps.
 - **LROC WAC gridded data**: Pickled data for the basemap of the lunar surface, included as `reproduce/data/map_wac.pkl`. Includes variables `wac_lon`, `wac_lat`, and `wac_vals` for longitude, latitude, and data values, respectively.
 - **Crater dataset**: Mapped and classified craters from [Rajšić et al. (2026)](https://doi.org/10.3847/PSJ/ae7a6f). These data are used for estimating regolith thickness based on crater size and REC/nREC classification. The dataset is included in the repository as `reproduce/data/Rajsic-etal2026-PSJ_Table_SM1-SM2.xlsx`.
 - **Regolith measurements**: Previously published regolith thickness estimates at points across the lunar surface. Used to generate the IDW-interpolated map of [Rajšić et al. (2026)](https://doi.org/10.3847/PSJ/ae7a6f) alongside estimates from our crater analysis. Included in the repository as `reproduce/data/RegolithData_Literature.xlsx`.
